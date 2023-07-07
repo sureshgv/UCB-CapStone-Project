@@ -6,16 +6,22 @@ Venkata Suresh Gummadilli
 #### Executive summary
 The objective of this project is to detect more effective ways for detecting people who are at risk of COVID19 by identifying and evaluating the best model for COVID19 risk detection through patients medicals history and health conditions. We will be training and tuning classification models to accurately classify whether a patient is at risk or not. Models will be able to predict from various patients medical conditions, covid test results and chronic health diseases. 
 
+#### Findings: 
+The best model for detection COVID19 Risk is Decision Tree model with an accuracy of 0.89, a recall 0.95 of and F-1 of 0.89. Its performance is followed by Decision Tree model, K-Nearest Neighbour, Logistic regression and Naive Bayes model. The decision is based on the best accuracy, recall and F1 score of the models as shown in the below.
+
+![Screenshot 2023-07-07 at 1 05 45 AM](https://github.com/sureshgv/UCB-CapStone-Project/assets/1572856/c5e0b1ab-e402-4bb6-9274-533034b4da66)
+
+#### Results and conclusion
+
 
 #### Rationale
 During the entire course of the pandemic, one of the main problems that healthcare providers have faced is the shortage of medical resources and a proper plan to efficiently distribute them. In these tough times, being able to predict what kind of resource an individual might require at the time of being tested positive or even before that will be of immense help to the authorities as they would be able to procure and arrange for the resources necessary to save the life of that patient.
 
 The main goal of this project is to build a machine learning model that, given a Covid-19 patient's current symptom, status, and medical history, will predict whether the patient is in high risk or not.
-Why should anyone care about this question?
+
 
 #### Research Question
-This project aims to answer is what is the best classification model for detecting patients at risk for COVID19.
-What are you trying to answer?
+The objective of this project is to identify the optimal classification model for identifying patients at risk for COVID-19.
 
 #### Data Sources
 The COVID19 dataset is taken from Kaggle and was provided by the Mexican government (link). This dataset contains an enormous number of anonymized patient-related information including pre-conditions. The raw dataset consists of 21 unique features and 1,048,576 unique patients. In the Boolean features, 1 means "yes" and 2 means "no". values as 97 and 99 are missing data.
@@ -34,10 +40,9 @@ The unique ID column was dropped because it adds no meaningful information to th
 
 
 #### Methodology
-In this project, I have used various machine learning models like.
+In this project, I have used various machine learning models as follows:
 * Logistic Regression
 * K-Nearest Neighbors
-* Support Vector Machine
 * Decision Tree
 * Random Forests
 * Naive Bayes
@@ -57,9 +62,8 @@ What suggestions do you have for next steps?
 
 #### Outline of project
 
-- [Link to notebook 1]()
-- [Link to notebook 2]()
-- [Link to notebook 3]()
+- [Analysis & Model selection Notebook](https://github.com/sureshgv/UCB-CapStone-Project/blob/main/covid19-high-risk-prediction.ipynb)
 
 
 ##### Contact and Further Information
+gvs.114@gmail.com
